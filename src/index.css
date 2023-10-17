@@ -5,13 +5,21 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
 
 .text-g {
-    color: transparent; 
-    background-image: linear-gradient(45deg,#E10EF3, #FF00B1);
+    color: transparent;
+    background-image: linear-gradient(45deg, #E10EF3, #FF00B1);
     -webkit-background-clip: text;
-    background-clip: text; 
-  }
+    background-clip: text;
+}
+
+.bg-g {
+    background-image: linear-gradient(to right, #E10EF3, #FF00B1);
+}
+
+.active {
+    background-color: aqua;
+}
