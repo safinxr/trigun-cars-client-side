@@ -101,16 +101,16 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end hidden md:flex">
 
-                    <Link to='/signin' className="rounded-md px-4 py-1.5 m-1 overflow-hidden relative group cursor-pointer border-2 font-medium border-white ">
+                    <Link to='/signin' className="rounded-md px-4 py-1.5 m-1 overflow-hidden relative group cursor-pointer border-2 font-medium border-[#FF4D24] ">
 
-                        <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
-                        <span className="relative text-white transition duration-300 group-hover:text-black ease">Sign in
+                        <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-[#FF4D24] top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+                        <span className="relative text-[#FF4D24] transition duration-300 group-hover:text-white ease">Sign in
                         </span>
                     </Link>
-                    <Link to='/signup' className="rounded-md px-4 py-1.5 m-1 overflow-hidden relative group cursor-pointer border-2 font-medium border-white ">
+                    <Link to='/signup' className="rounded-md px-4 py-1.5 m-1 overflow-hidden relative group cursor-pointer border-2 font-medium border-[#FF4D24] ">
 
-                        <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
-                        <span className="relative text-white transition duration-300 group-hover:text-black ease">Sign up
+                        <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-[#FF4D24] top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+                        <span className="relative text-[#FF4D24] transition duration-300 group-hover:text-white ease">Sign up
                         </span>
                     </Link>
                 </div>

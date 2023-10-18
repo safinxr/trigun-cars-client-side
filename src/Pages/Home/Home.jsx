@@ -3,6 +3,7 @@ import Footer from '../Footer/Footer';
 import Banner from './Banner';
 import BrandDisplay from './BrandDisplay';
 import SuperSell from './SuperSell';
+import Services from './Services';
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <Banner></Banner>
             <BrandDisplay></BrandDisplay>
             <SuperSell></SuperSell>
+            <Services></Services>
             <Footer></Footer>
         </div>
     );

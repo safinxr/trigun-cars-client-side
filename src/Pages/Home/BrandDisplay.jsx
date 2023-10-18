@@ -31,7 +31,7 @@ const BrandCard = ({ brand }) => {
                     <img src={brand_img} alt="brand" />
                     <img className='hidden lg:flex absolute opacity-0 group-hover:opacity-100 rounded-t-2xl duration-500 ' src={car_img} alt="car" />
                 </figure>
-                <div className="card-body bg-black rounded-b-2xl p-2">
+                <div className="card-body bg-[#FF4D24] rounded-b-2xl p-2">
                     <h2 className="text-white text-center font-bold">{brand_name}</h2>
                 </div>
             </div>
