@@ -24,11 +24,14 @@ export default BrandDisplay;
 
 
 const BrandCard = ({ brand }) => {
-    const {brand_name, brand_img, car_img} = brand;
+    const { brand_name, brand_img, car_img } = brand;
     return (
         <div>
-            <div className="card bg-base-100 card-shadow duration-300  active:scale-95">
-                <figure><img src={brand_img} alt="Shoes" /></figure>
+            <div className="card bg-base-100 card-shadow duration-300  active:scale-95 relative group">
+                <figure>
+                    <img src={brand_img} alt="brand" />
+                    <img className='absolute opacity-0 group-hover:opacity-100 rounded-t-2xl duration-500' src={car_img} alt="car" />
+                </figure>
                 <div className="card-body bg-black rounded-b-2xl p-2">
                     <h2 className="text-white text-center font-bold">{brand_name}</h2>
                 </div>
