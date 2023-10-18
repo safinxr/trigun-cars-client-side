@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "brand_name": "Toyota",
+      "brand_img": "https://i.ibb.co/Jn6sfd4/Toyota.jpg",
+      "car_img": "https://i.ibb.co/6bmjvsw/toyata.jpg"
+    },
+    {
+      "id": 2,
+      "brand_name": "Honda",
+      "brand_img": "https://i.ibb.co/VChXMSQ/Honda-Logo.jpg",
+      "car_img": "https://i.ibb.co/3Sbhcg9/honda.jpg"
+    },
+    {
+      "id": 3,
+      "brand_name": "Ford",
+      "brand_img": "https://i.ibb.co/v1dqY7N/Ford-Motors.jpg",
+      "car_img": "https://i.ibb.co/yNKW39p/Ford-Motor-Company-US-Sales.jpg"
+    },
+    {
+      "id": 4,
+      "brand_name": "Tesla",
+      "brand_img": "https://i.ibb.co/GnB9Xz5/Tesla-logo.jpg",
+      "car_img": "https://i.ibb.co/xLxq4sD/tesla-model-x.jpg"
+    },
+    {
+      "id": 5,
+      "brand_name": "BMW",
+      "brand_img": "https://i.ibb.co/zhDLRMf/BMW-svg.jpg",
+      "car_img": "https://i.ibb.co/Tqv7fSy/BMW-1.jpg"
+    },
+    {
+      "id": 6,
+      "brand_name": "Mercedes-Benz",
+      "brand_img": "https://i.ibb.co/R7YpKgB/mercedes-benz-logo.jpg",
+      "car_img": "https://i.ibb.co/r3W617W/mercedes.jpg"
+    },
+    {
+      "id": 7,
+      "brand_name": "Audi",
+      "brand_img": "https://i.ibb.co/C7wN0jm/audi-1.jpg",
+      "car_img": "https://i.ibb.co/dGxyb6v/audi.jpg"
+    },
+    {
+      "id": 8,
+      "brand_name": "Ferrari ",
+      "brand_img": "https://i.ibb.co/0YQVGKw/ferrari-1.jpg",
+      "car_img": "https://i.ibb.co/gz68jHL/ferrari.jpg"
+    }
+  ]
