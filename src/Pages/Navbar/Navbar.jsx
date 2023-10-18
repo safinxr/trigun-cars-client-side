@@ -2,6 +2,8 @@ import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
+
+    // NAVLINK 🔗🔗🔗🔗🔗🔗🔗🔗🔗🔗🔗🔗🔗🔗🔗🔗
     const navLink = <>
         <li><NavLink
             to="/"
@@ -27,11 +29,6 @@ const Navbar = () => {
         >
             My Cart
         </NavLink></li>
-
-
-
-
-
     </>
 
     const inOut = <>
@@ -53,8 +50,10 @@ const Navbar = () => {
         </NavLink></li>
 
     </>
+
+    // RETURN HTML START 🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔
     return (
-        <nav className='bg-g'>
+        <nav className='sticky top-0'>
             <div className="navbar max-w-6xl mx-auto">
                 <div className="navbar-start ">
                     <div className="dropdown">
@@ -67,7 +66,7 @@ const Navbar = () => {
 
                         </ul>
                     </div>
-                    <Link className="flex items-center normal-case text-3xl font-bold"><img className='w-12 mr-2 ' src="https://i.ibb.co/YbFDYtY/logo.png" alt="" /> <span className='text-white'>TRIGUN</span></Link>
+                    <Link className="flex items-center normal-case text-3xl"><img className='w-12 mr-2 ' src="https://i.ibb.co/YbFDYtY/logo.png" alt="" /> <span className='text-white font-semibold'>TRIGUN</span></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className=" text-white font-semibold flex items-center">
