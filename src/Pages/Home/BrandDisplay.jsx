@@ -8,8 +8,8 @@ const BrandDisplay = () => {
             .then(data => setBrands(data))
     }, [])
     return (
-        <div className='my-32 max-w-6xl mx-auto px-3 mx:px-8 lg:px-0' >
-            <h2 className='uppercase text-center text-5xl font-semibold mb-16'>Car Brands</h2>
+        <div className='my-20 md:my-32 max-w-6xl mx-auto px-3 mx:px-8 lg:px-0' >
+            <h2 className='uppercase text-center text-3xl md:text-5xl font-semibold mb-6 md:mb-10'>Car Brands</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 '>
                 {
                     brands.map(brand => <BrandCard brand={brand} key={brand.id}></BrandCard>)
