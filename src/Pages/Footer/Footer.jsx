@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const Footer = () => {
     return (
@@ -25,8 +25,8 @@ const Footer = () => {
                     <a className="link link-hover">Cookie policy</a>
                 </nav>
             </footer>
-            <footer className="footer px-10 py-4 border-t bg-black text-white border-base-300">
-                <aside className="items-center grid-flow-col">
+            <footer className="footer px-10 py-4 border-t border-t-[#FF4D24] bg-black text-white border-base-300">
+                <aside  className="items-center grid-flow-col">
                 <img className='w-12 mr-2 ' src="https://i.ibb.co/YbFDYtY/logo.png" alt="" />
                     <p>TRIGUN CARS <br />Providing reliable tech since 2020</p>
                 </aside>

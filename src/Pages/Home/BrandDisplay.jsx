@@ -1,6 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const BrandDisplay = () => {
+    useEffect(()=>{
+        AOS.init();
+    },[])
+
     const [brands, setBrands] = useState([]);
     useEffect(() => {
         fetch('/brand.json')
@@ -25,7 +31,7 @@ export default BrandDisplay;
 const BrandCard = ({ brand }) => {
     const { brand_name, brand_img, car_img } = brand;
     return (
-        <div>
+        <div data-aos="fade-up">
             <div className="card bg-base-100 card-shadow duration-300  active:scale-95 relative group ">
                 <figure>
                     <img src={brand_img} alt="brand" />
