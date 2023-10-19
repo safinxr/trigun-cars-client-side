@@ -7,6 +7,7 @@ const Navbar = () => {
     const { user, logOut } = useContext(ContextAuth)
     const [navBg, setNavBg] = useState(false)
     let { pathname } = useLocation();
+    console.log(user);
 
     useEffect(() => {
         if (pathname === '/') {
@@ -145,8 +146,8 @@ const Navbar = () => {
                             <div className='flex items-center justify-between bg-[#FF4D24] mr-2 ps-2 py-0 rounded-3xl '>
                                 <div className='ms-2 text-base font-medium text-white'>{user.displayName}</div>
                                 {
-                                    user.photoURL ? <img className='ms-2 w-9 rounded-full' src={user.photoURL} alt="" /> :
-                                        <div className='ms-2 w-9 h-9 rounded-full bg-[#525D7C] flex justify-center items-center'>
+                                    user.photoURL ? <img className='ms-2 mr-[-2px] w-9 rounded-full' src={user.photoURL} alt="" /> :
+                                        <div className='ms-2 mr-[-2px] w-9 h-9 rounded-full bg-[#525D7C] flex justify-center items-center'>
                                             <p className='text-white text-xl'>{user.email.slice(0, 1)}</p>
                                         </div>
                                 }

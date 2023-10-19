@@ -1,8 +1,11 @@
 import React, { createContext, useEffect, useState } from 'react';
 import { auth } from '../firebase.config';
-import { createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signOut, updateProfile } from 'firebase/auth';
+import { createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from 'firebase/auth';
+
 
 export const ContextAuth = createContext(null)
+
+
 const Context= ({children}) => {
     const [user, setUser] = useState(null)
     const [shortLoading, setShortLoading] = useState(true)
@@ -33,6 +36,10 @@ const Context= ({children}) => {
         return signInWithEmailAndPassword(auth, email, password)
     }
 
+    const googleSignIn =(provider)=>{
+        return signInWithPopup(auth, provider)
+    }
+
     const logOut = () =>{ 
         return signOut(auth)
     }
@@ -44,6 +51,7 @@ const Context= ({children}) => {
     const contextValue = {
         emailPassSignUp,
         emailPassSignIn,
+        googleSignIn,
         logOut,
         upProfile,
         shortLoading,
