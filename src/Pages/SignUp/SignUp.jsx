@@ -40,7 +40,6 @@ const SignUp = () => {
                         <div className='border w-full ms-2'></div>
                     </div>
                     <div className='flex gap-5 justify-center'>
-                        <img className='w-8' src="https://i.ibb.co/t23XdpQ/facebook.png" alt="" />
                         <img className='w-8' src="https://i.ibb.co/5G8GtRK/googel.png" alt="" />
                         <img className='w-8' src="https://i.ibb.co/4M53vW3/github.png" alt="" />
                     </div>
