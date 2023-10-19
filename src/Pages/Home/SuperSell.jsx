@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const SuperSell = () => {
     return (
-        <div className="bg-[url('https://i.ibb.co/tmSDJ1d/Super-sell-min.jpg')] bg-cover bg-center bg-no-repeat ">
+        <div className="bg-[url('https://i.ibb.co/tmSDJ1d/Super-sell-min.jpg')] bg-cover bg-center bg-no-repeat">
             <div className='py-28 px-3 md:px-8 lg:px-32'>
                 <h1 className='text-outline text-6xl md:text-[110px] font-semibold'>20% OFF</h1>
                 <h3 className='text-5xl font-semibold text-white'>OUR LATEST ONLINE DEALS</h3>
