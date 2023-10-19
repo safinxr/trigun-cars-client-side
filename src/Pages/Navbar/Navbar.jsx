@@ -7,7 +7,6 @@ const Navbar = () => {
     const { user, logOut } = useContext(ContextAuth)
     const [navBg, setNavBg] = useState(false)
     let { pathname } = useLocation();
-    console.log(user);
 
     useEffect(() => {
         if (pathname === '/') {
