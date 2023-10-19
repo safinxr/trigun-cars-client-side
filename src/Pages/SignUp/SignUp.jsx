@@ -93,7 +93,7 @@ const SignUp = () => {
     return (
 
         <div className="bg-[url('https://i.ibb.co/FY88TK0/si-bg-min.jpg')] 
-        bg-cover bg-center bg-no-repeat">
+        bg-cover bg-center bg-no-repeat text-roboto">
             <div className='max-w-4xl mx-auto flex justify-center lg:justify-end items-center h-[90vh] px-3 md:px-8 lg:px-0'>
                 <div className='md:w-3/5 lg:w-2/5 p-10  bg-white shadow-xl rounded-xl '>
                     <h3 className='font-bold text-center text-2xl mb-8'>SignUp</h3>
@@ -126,7 +126,9 @@ const SignUp = () => {
                             </>
                         }
 
-                        <input className='w-full bg-[#FF4D24] py-2 rounded-lg text-white uppercase font-semibold active:scale-95' type="submit" />
+                        <button type="submit" className='w-full bg-[#FF4D24] py-2 rounded-lg text-white uppercase font-semibold active:scale-95'>
+                            SIGN UP
+                        </button>
                     </form>
 
                     {/* FORM END    ⛔⛔⛔⛔⛔⛔⛔⛔⛔⛔⛔⛔⛔                 */}

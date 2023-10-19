@@ -1,6 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap'); */
-
-@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap');
 
 
 @tailwind base;
@@ -8,8 +6,11 @@
 @tailwind utilities;
 
 body {
-    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Oxanium', sans-serif;
+}
+
+.text-roboto{
+    font-family: 'Roboto', sans-serif;
 }
 
 .text-g {
@@ -23,9 +24,6 @@ body {
     background-image: linear-gradient(to right, #FF4D24, #FF6E65);
 }
 
-.active {
-    background-color: aqua;
-}
 
 .text-neon {
     color: #fff;
