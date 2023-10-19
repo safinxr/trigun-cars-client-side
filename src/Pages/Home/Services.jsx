@@ -40,21 +40,21 @@ const Services = () => {
                     <img src="https://i.ibb.co/68NLXMh/4.png" alt="" />
                 </div>
                 <div>
-                    <div data-aos="fade-left">
+                    <div data-aos="fade-right">
                         <h2 className='font-semibold text-xl flex items-center'>
                             <span className='mr-6'><FaRegDotCircle className='text-[#FF4D24]'></FaRegDotCircle></span>
                             Hight technology instrument
                         </h2>
                         <p className='ms-10 my-4'>When you choose our "Insurance Included" service, you can sell your car with confidence, knowing that you're covered.</p>
                     </div>
-                    <div data-aos="fade-left" className='my-12'>
+                    <div data-aos="fade-right" className='my-12'>
                         <h2 className='font-semibold text-xl flex items-center'>
                             <span className='mr-6'><FaRegDotCircle className='text-[#FF4D24]'></FaRegDotCircle></span>
                             Access control system
                         </h2>
                         <p className='ms-10 my-4'>Our Access Control System ensures the security and integrity of your car buying process.</p>
                     </div>
-                    <div data-aos="fade-left">
+                    <div data-aos="fade-right">
                         <h2 className='font-semibold text-xl flex items-center'>
                             <span className='mr-6'><FaRegDotCircle className='text-[#FF4D24]'></FaRegDotCircle></span>
                             Online 24/7 Available
