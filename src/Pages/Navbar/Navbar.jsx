@@ -92,7 +92,7 @@ const Navbar = () => {
 
                         </ul>
                     </div>
-                    <Link className="flex items-center normal-case text-3xl"><img className='w-12 mr-2 ' src="https://i.ibb.co/YbFDYtY/logo.png" alt="" /> <span className='text-white font-semibold'>TRIGUN</span></Link>
+                    <Link className="flex items-center normal-case text-3xl"><img className='w-10 mr-2 ' src="https://i.ibb.co/mySC0G3/trigun-logo.png" alt="" /> <span className='text-white font-semibold'>TRIGUN</span></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className=" text-white font-semibold flex items-center">

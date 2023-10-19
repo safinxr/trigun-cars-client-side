@@ -27,7 +27,7 @@ const Footer = () => {
             </footer>
             <footer className="footer px-10 py-4 border-t border-t-[#FF4D24] bg-black text-white border-base-300">
                 <aside  className="items-center grid-flow-col">
-                <img className='w-12 mr-2 ' src="https://i.ibb.co/YbFDYtY/logo.png" alt="" />
+                <img className='w-10 mr-2 ' src="https://i.ibb.co/mySC0G3/trigun-logo.png" alt="" />
                     <p>TRIGUN CARS <br />Providing reliable tech since 2020</p>
                 </aside>
                 <nav className="md:place-self-center md:justify-self-end">
