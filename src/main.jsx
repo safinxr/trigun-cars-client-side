@@ -41,7 +41,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/cardisplay/:brand',
-        element: <CarDisplay></CarDisplay>
+        element: <CarDisplay></CarDisplay>,
+        
       },
     ]
   },

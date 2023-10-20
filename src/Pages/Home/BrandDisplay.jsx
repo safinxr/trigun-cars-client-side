@@ -40,7 +40,8 @@ const BrandCard = ({ brand }) => {
     const { brand_name, brand_img, car_img } = brand;
 
     const brandClink = (brand)=>{
-        navigate(`/cardisplay/${brand}`);
+        const lowerName = brand.toLowerCase()
+        navigate(`/cardisplay/${lowerName}`);
     }
 
     return (
