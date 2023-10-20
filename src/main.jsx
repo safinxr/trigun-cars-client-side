@@ -11,6 +11,7 @@ import SignIn from './Pages/SignIn/SignIn.jsx';
 import Context from './Context/Context.jsx';
 import PrivateRoute from './Private/PrivateRoute.jsx';
 import CarDisplay from './Pages/CarDisplay/CarDisplay.jsx';
+import CarDetails from './Pages/CarDetails/CarDetails.jsx';
 
 
 
@@ -41,8 +42,11 @@ const router = createBrowserRouter([
       },
       {
         path: '/cardisplay/:brand',
-        element: <PrivateRoute><CarDisplay></CarDisplay></PrivateRoute>,
-        
+        element: <PrivateRoute><CarDisplay></CarDisplay></PrivateRoute>, 
+      },
+      {
+        path: '/cardetails/:id',
+        element: <PrivateRoute><CarDetails></CarDetails></PrivateRoute>, 
       },
     ]
   },
