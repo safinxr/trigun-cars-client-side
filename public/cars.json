@@ -1,0 +1,254 @@
+[
+  {
+    "Brand Name": "Toyota",
+    "Image": "https://www.cnet.com/a/img/resize/4476006d1312ec379ee616af256b7596321b3742/hub/2021/08/20/257caf0a-f3a2-45db-9c70-d6ed50a85e6f/2021-toyota-camry-trd-ogi-1.jpg?auto=webp&fit=crop&height=900&width=1200",
+    "Name": "Toyota Camry",
+    "Type": "Sedan",
+    "Price": 27900,
+    "Short Description": "Reliable and fuel-efficient sedan.",
+    "Rating": 4.2
+  },
+  {
+    "Brand Name": "Toyota",
+    "Image": "https://media.ed.edmunds-media.com/toyota/corolla/2023/oem/2023_toyota_corolla_sedan_xse_fq_oem_1_1600.jpg",
+    "Name": "Toyota Corolla",
+    "Type": "Sedan",
+    "Price": 20900,
+    "Short Description": "A reliable and affordable compact sedan.",
+    "Rating": 4.2
+  },
+  {
+    "Brand Name": "Toyota",
+    "Image": "https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1683645145/autoexpress/2023/05/Toyota%20RAV4%20PHEV%20007_wqi243.jpg",
+    "Name": "Toyota RAV4",
+    "Type": "SUV",
+    "Price": 26900,
+    "Short Description": "A popular and practical compact SUV.",
+    "Rating": 4.3
+  },
+  {
+    "Brand Name": "Toyota",
+    "Image": "https://www.cnet.com/a/img/resize/d29ab45670195bd9f720b86810dcf369aaedef55/hub/2023/02/10/abcd4082-dd6d-4013-a186-50f24f8dfc73/2024-toyota-grandhighlander-stormcloud-001-scaled.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "Name": "Toyota Highlander",
+    "Type": "SUV",
+    "Price": 34900,
+    "Short Description": "A family-friendly midsize SUV.",
+    "Rating": 4.5
+  },
+  {
+    "Brand Name": "Honda",
+    "Image": "https://hips.hearstapps.com/hmg-prod/images/img-7295-10-1666813703.jpg?crop=0.7498493068113322xw:1xh;center,top&resize=1200:*",
+    "Name": "Honda Civic",
+    "Type": "Sedan",
+    "Price": 21900,
+    "Short Description": "A popular compact sedan known for reliability.",
+    "Rating": 4.4
+  },
+  {
+    "Brand Name": "Honda",
+    "Image": "https://www.motortrend.com/uploads/2021/12/2022-honda-accord-sport-2-0t-15.jpg",
+    "Name": "Honda Accord",
+    "Type": "Sedan",
+    "Price": 24900,
+    "Short Description": "A well-rounded and comfortable sedan.",
+    "Rating": 4.3
+  },
+  {
+    "Brand Name": "Honda",
+    "Image": "https://www.motortrend.com/uploads/2023/06/2024-Honda-CR-V-Hybrid-front-view-16.jpeg",
+    "Name": "Honda CR-V",
+    "Type": "SUV",
+    "Price": 29850,
+    "Short Description": "Spacious and comfortable SUV.",
+    "Rating": 4.4
+  },
+  {
+    "Brand Name": "Honda",
+    "Image": "https://www.cnet.com/a/img/resize/fe7ed0c3e9abfae70cb5df64857d40e6700540cf/hub/2022/11/04/e785d389-3b88-41e2-818b-fcf55fd04be4/honda-pilot-elite-trailsport-2023-739381.jpg?auto=webp&width=1920",
+    "Name": "Honda Pilot",
+    "Type": "SUV",
+    "Price": 39900,
+    "Short Description": "A family-friendly midsize SUV.",
+    "Rating": 4.6
+  },
+  {
+    "Brand Name": "Ford",
+    "Image": "https://carwow-uk-wp-3.imgix.net/29553062517_8702ad3124_k-e1661859372986.jpg",
+    "Name": "Ford Focus",
+    "Type": "Hatchback",
+    "Price": 19900,
+    "Short Description": "An affordable and compact hatchback.",
+    "Rating": 4.1
+  },
+  {
+    "Brand Name": "Ford",
+    "Image": "https://media.ed.edmunds-media.com/ford/escape/2023/oem/2023_ford_escape_4dr-suv_plug-in-hybrid_fq_oem_1_1280.jpg",
+    "Name": "Ford Escape",
+    "Type": "SUV",
+    "Price": 24900,
+    "Short Description": "A versatile and efficient compact SUV.",
+    "Rating": 4.2
+  },
+  {
+    "Brand Name": "Ford",
+    "Image": "https://cdn.dealeraccelerate.com/adrenalin/1/2444/64265/1920x1440/2021-ford-explorer-limited-4wd",
+    "Name": "Ford Explorer",
+    "Type": "SUV",
+    "Price": 32900,
+    "Short Description": "A family-oriented midsize SUV.",
+    "Rating": 4.3
+  },
+  {
+    "Brand Name": "Ford",
+    "Image": "https://cdn.jdpower.com/JDP_2022%20Ford%20F-150%20Red%20Front%20Quarter%20View.JPG",
+    "Name": "Ford F-150",
+    "Type": "Truck",
+    "Price": 42850,
+    "Short Description": "A rugged and powerful pickup truck.",
+    "Rating": 4.8
+  },
+  {
+    "Brand Name": "Tesla",
+    "Image": "https://hips.hearstapps.com/hmg-prod/images/2020-porsche-taycan-4s-vs-2020-tesla-model-s-long-range-202-1621386342.jpg?crop=0.772xw:0.579xh;0.0489xw,0.232xh&resize=1200:*",
+    "Name": "Tesla Model S",
+    "Type": "Electric Car",
+    "Price": 79900,
+    "Short Description": "An electric luxury sedan with cutting-edge technology.",
+    "Rating": 4.9
+  },
+  {
+    "Brand Name": "Tesla",
+    "Image": "https://www.motortrend.com/uploads/2023/08/New-Tesla-Model-3-sedan-11.jpg",
+    "Name": "Tesla Model 3",
+    "Type": "Electric Car",
+    "Price": 39900,
+    "Short Description": "An electric car with cutting-edge technology.",
+    "Rating": 4.9
+  },
+  {
+    "Brand Name": "Tesla",
+    "Image": "https://tsportline.com/cdn/shop/articles/black-tesla-model-x-carbon-fiber-spoiler-mx22-forged-aftermarket-wheel-gloss-black-wm-1_1280x.jpg?v=1672436947",
+    "Name": "Tesla Model X",
+    "Type": "Electric SUV",
+    "Price": 89900,
+    "Short Description": "A premium electric SUV with advanced features.",
+    "Rating": 4.7
+  },
+  {
+    "Brand Name": "Tesla",
+    "Image": "https://i.gaw.to/content/photos/43/73/437325-tesla-model-y-2020-tracer-la-voie-une-fois-de-plus.jpg",
+    "Name": "Tesla Model Y",
+    "Type": "Electric SUV",
+    "Price": 49900,
+    "Short Description": "A compact electric SUV with a stylish design.",
+    "Rating": 4.6
+  },
+  {
+    "Brand Name": "BMW",
+    "Image": "https://stimg.cardekho.com/images/carexteriorimages/930x620/BMW/3-Series/10574/1689667781970/front-left-side-47.jpg",
+    "Name": "BMW 3 Series",
+    "Type": "Sedan",
+    "Price": 41900,
+    "Short Description": "A luxury sedan with a sporty character.",
+    "Rating": 4.5
+  },
+  {
+    "Brand Name": "BMW",
+    "Image": "https://media.ed.edmunds-media.com/bmw/x5/2024/oem/2024_bmw_x5_4dr-suv_xdrive50e_fq_oem_1_1600.jpg",
+    "Name": "BMW X5",
+    "Type": "SUV",
+    "Price": 59900,
+    "Short Description": "A luxury SUV with a powerful engine.",
+    "Rating": 4.7
+  },
+  {
+    "Brand Name": "BMW",
+    "Image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20230808055641_1.jpg",
+    "Name": "BMW 5 Series",
+    "Type": "Sedan",
+    "Price": 52900,
+    "Short Description": "A premium sedan with advanced technology.",
+    "Rating": 4.6
+  },
+  {
+    "Brand Name": "BMW",
+    "Image": "https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/9ea50e95-7dc9-4846-8fc0-688c63130eb6/BMW%20X3%20%286%29.jpg?width=800&fm=jpg&auto=format",
+    "Name": "BMW X3",
+    "Type": "SUV",
+    "Price": 43900,
+    "Short Description": "A compact luxury SUV with a comfortable interior.",
+    "Rating": 4.4
+  },
+  {
+    "Brand Name": "Mercedes-Benz",
+    "Image": "https://www.iihs.org/media/8e5d4815-97b5-4c46-897d-a2696ef0f0eb/e6Dahg/News/2022/110922.jpg",
+    "Name": "Mercedes-Benz C-Class",
+    "Type": "Sedan",
+    "Price": 41900,
+    "Short Description": "A luxury sedan with advanced features.",
+    "Rating": 4.6
+  },
+  {
+    "Brand Name": "Mercedes-Benz",
+    "Image": "https://images.drive.com.au/driveau/image/upload/c_fill,f_auto,g_auto,h_675,q_auto:best,w_1200/v1/cms/uploads/fzysbldsmm9ihoxpcgwg",
+    "Name": "Mercedes-Benz GLE",
+    "Type": "SUV",
+    "Price": 57900,
+    "Short Description": "A premium SUV with a spacious interior.",
+    "Rating": 4.8
+  },
+  {
+    "Brand Name": "Mercedes-Benz",
+    "Image": "https://images.drive.com.au/driveau/image/upload/c_fill,f_auto,g_auto,h_1080,q_auto:eco,w_1920/v1/cms/uploads/yumbvjpqiukmlg0q9cuw",
+    "Name": "Mercedes-Benz E-Class",
+    "Type": "Sedan",
+    "Price": 56900,
+    "Short Description": "A luxury sedan with cutting-edge technology.",
+    "Rating": 4.8
+  },
+  {
+    "Brand Name": "Mercedes-Benz",
+    "Image": "https://hips.hearstapps.com/hmg-prod/images/2023-mercedes-benz-glc-300103-6462517b63289.jpg?crop=0.998xw:0.750xh;0,0.154xh&resize=1200:*",
+    "Name": "Mercedes-Benz GLC",
+    "Type": "SUV",
+    "Price": 49900,
+    "Short Description": "A compact luxury SUV with a sporty design.",
+    "Rating": 4.7
+  },
+  {
+    "Brand Name": "Audi",
+    "Image": "https://media.ed.edmunds-media.com/audi/a4/2022/oem/2022_audi_a4_sedan_prestige-s-line_fq_oem_8_1280.jpg",
+    "Name": "Audi A4",
+    "Type": "Sedan",
+    "Price": 39900,
+    "Short Description": "A stylish and well-equipped luxury sedan.",
+    "Rating": 4.5
+  },
+  {
+    "Brand Name": "Audi",
+    "Image": "https://www.motortrend.com/uploads/2023/07/11204-2024-Audi-Q5-Sportback-front-view.jpg",
+    "Name": "Audi Q5",
+    "Type": "SUV",
+    "Price": 46900,
+    "Short Description": "A premium SUV with a comfortable interior.",
+    "Rating": 4.6
+  },
+  {
+    "Brand Name": "Audi",
+    "Image": "https://media.ed.edmunds-media.com/audi/q7/2022/oem/2022_audi_q7_4dr-suv_prestige_fq_oem_1_1600.jpg",
+    "Name": "Audi Q7",
+    "Type": "SUV",
+    "Price": 56900,
+    "Short Description": "A luxury SUV with advanced technology.",
+    "Rating": 4.7
+  },
+  {
+    "Brand Name": "Audi",
+    "Image": "https://www.audi-mediacenter.com/system/production/media/58231/images/c64a1478912a6f356bbffd71ab3c62aee760b910/A181743_blog.jpg?1582400118",
+    "Name": "Audi A6",
+    "Type": "Sedan",
+    "Price": 49900,
+    "Short Description": "A premium sedan with a spacious interior.",
+    "Rating": 4.6
+  }
+]

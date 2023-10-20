@@ -40,7 +40,7 @@ const router = createBrowserRouter([
         element: <SignUp></SignUp>
       },
       {
-        path: '/cardisplay',
+        path: '/cardisplay/:brand',
         element: <CarDisplay></CarDisplay>
       },
     ]
