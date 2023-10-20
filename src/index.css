@@ -36,10 +36,19 @@ body {
     box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
 }
 
+.form-shadow{
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, .45);
+}
+
 
 .text-outline{
 
         -webkit-text-stroke: 2px rgb(184, 184, 184);
         -webkit-text-fill-color:transparent ;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    display: none;
 }
 
