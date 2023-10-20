@@ -15,12 +15,12 @@ const BrandCars = () => {
                 setLoading(false)
             })
     }, [])
-    console.log(cars);
     if(loading){
         return <Loading></Loading>
     }
     return (
-        <div className='my-20 md:my-28 max-w-6xl mx-auto px-3 mx:px-8 lg:px-0 text-roboto' >
+        <div className='my-20 md:my-28 max-w-6xl mx-auto px-3 mx:px-8 lg:px-0 text-roboto
+        ' >
             <h2 className='uppercase text-center text-3xl md:text-5xl font-semibold mb-6 md:mb-10 underline underline-offset-8'><span className='uppercase'>{brand} </span>Cars</h2>
             {
                 cars.length > 0 ? <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 '>
