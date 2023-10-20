@@ -5,6 +5,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { ContextAuth } from '../../Context/Context';
 import { GoogleAuthProvider } from "firebase/auth";
 import { GithubAuthProvider } from "firebase/auth";
+import Loading from '../../Shared/Loading';
 
 
 

@@ -9,6 +9,7 @@ import MyCart from './Pages/MyCart/MyCart.jsx';
 import SignUp from './Pages/SignUp/SignUp.jsx';
 import SignIn from './Pages/SignIn/SignIn.jsx';
 import Context from './Context/Context.jsx';
+import PrivateRoute from './Private/PrivateRoute.jsx';
 
 
 
@@ -23,11 +24,11 @@ const router = createBrowserRouter([
       },
       {
         path: '/addproduct',
-        element: <AddProduct></AddProduct>,
+        element: <PrivateRoute><AddProduct></AddProduct></PrivateRoute>,
       },
       {
         path: '/mycart',
-        element: <MyCart></MyCart>
+        element: <PrivateRoute><MyCart></MyCart></PrivateRoute>
       },
       {
         path: '/signin',
