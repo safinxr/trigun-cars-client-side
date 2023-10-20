@@ -10,6 +10,7 @@ import SignUp from './Pages/SignUp/SignUp.jsx';
 import SignIn from './Pages/SignIn/SignIn.jsx';
 import Context from './Context/Context.jsx';
 import PrivateRoute from './Private/PrivateRoute.jsx';
+import CarDisplay from './Pages/CarDisplay/CarDisplay.jsx';
 
 
 
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: '/signup',
         element: <SignUp></SignUp>
+      },
+      {
+        path: '/cardisplay',
+        element: <CarDisplay></CarDisplay>
       },
     ]
   },
