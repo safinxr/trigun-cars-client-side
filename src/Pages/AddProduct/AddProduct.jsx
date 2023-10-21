@@ -17,7 +17,7 @@ const AddProduct = () => {
         const carData = { name, brand_name, type, description, price, img, rating };
 
 
-        fetch('http://localhost:3000/cardata', {
+        fetch('https://trigun-cars-server-side-2rslvmt9m-safin-khans-projects.vercel.app/cardata', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(carData)

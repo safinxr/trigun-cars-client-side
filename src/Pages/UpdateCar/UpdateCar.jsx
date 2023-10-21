@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import Swal from 'sweetalert2'
 
 const UpdateCar = () => {
@@ -7,7 +7,7 @@ const UpdateCar = () => {
     const [oldData, setOldData] = useState([]);
     const { id } = useParams()
     useEffect(() => {
-        fetch(`http://localhost:3000/cardata/${id}`)
+        fetch(`https://trigun-cars-server-side-2rslvmt9m-safin-khans-projects.vercel.app/cardata/${id}`)
             .then(res => res.json())
             .then(data => setOldData(data))
     }, [])
@@ -26,7 +26,7 @@ const UpdateCar = () => {
         console.log(carData);
 
 
-        fetch(`http://localhost:3000/cardata/${id}`, {
+        fetch(`https://trigun-cars-server-side-2rslvmt9m-safin-khans-projects.vercel.app/cardata/${id}`, {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(carData)
@@ -42,6 +42,8 @@ const UpdateCar = () => {
                         showConfirmButton: false,
                         timer: 1500
                     })
+
+
                 };
             })
 

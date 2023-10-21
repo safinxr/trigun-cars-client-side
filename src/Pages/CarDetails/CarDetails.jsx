@@ -13,7 +13,7 @@ const CarDetails = () => {
     const { id } = useParams()
     const [car, setCar] = useState([]);
     useEffect(() => {
-        fetch(`http://localhost:3000/cardata/${id}`)
+        fetch(`https://trigun-cars-server-side-2rslvmt9m-safin-khans-projects.vercel.app/cardata/${id}`)
             .then(res => res.json())
             .then(data => setCar(data))
     }, [])
@@ -26,7 +26,7 @@ const CarDetails = () => {
         const userEmail = user.email
         const cartData = ({ brand_name, img, name, type, price, description, rating, userEmail, cart_id });
 
-        fetch('http://localhost:3000/addtocart', {
+        fetch('https://trigun-cars-server-side-2rslvmt9m-safin-khans-projects.vercel.app/addtocart', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(cartData)

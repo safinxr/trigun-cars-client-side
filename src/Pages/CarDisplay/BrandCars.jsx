@@ -8,7 +8,7 @@ const BrandCars = () => {
     const [cars, setCars] = useState([]);
     let { brand } = useParams();
     useEffect(() => {
-        fetch(`http://localhost:3000/display/${brand}`)
+        fetch(`https://trigun-cars-server-side-2rslvmt9m-safin-khans-projects.vercel.app/display/${brand}`)
             .then(res => res.json())
             .then(data => {
                 setCars(data)

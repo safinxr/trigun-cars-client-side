@@ -13,6 +13,7 @@ import PrivateRoute from './Private/PrivateRoute.jsx';
 import CarDisplay from './Pages/CarDisplay/CarDisplay.jsx';
 import CarDetails from './Pages/CarDetails/CarDetails.jsx';
 import UpdateCar from './Pages/UpdateCar/UpdateCar.jsx';
+import ErrorPage from './Pages/ErrorPage/ErrorPage.jsx';
 
 
 
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
