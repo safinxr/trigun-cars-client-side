@@ -9,7 +9,7 @@ const MyCart = () => {
     const { user } = useContext(ContextAuth)
     const [carts, setCarts] = useState([]);
     useEffect(() => {
-        fetch(`https://trigun-cars-server-side-2rslvmt9m-safin-khans-projects.vercel.app/cart/${user.email}`)
+        fetch(`https://trigun-cars-server-side.vercel.app/cart/${user.email}`)
             .then(res => res.json())
             .then(data => setCarts(data))
     }, [])
@@ -24,7 +24,7 @@ const MyCart = () => {
             confirmButtonText: 'Yes, delete it!'
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`https://trigun-cars-server-side-2rslvmt9m-safin-khans-projects.vercel.app/cart/${id}`, {
+                fetch(`https://trigun-cars-server-side.vercel.app/cart/${id}`, {
                     method: "DELETE",
 
                 })

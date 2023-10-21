@@ -11,7 +11,7 @@ const BrandDisplay = () => {
 
     const [brands, setBrands] = useState([]);
     useEffect(() => {
-        fetch('https://trigun-cars-server-side-2rslvmt9m-safin-khans-projects.vercel.app/brands')
+        fetch('https://trigun-cars-server-side.vercel.app/brands')
             .then(res => res.json())
             .then(data => setBrands(data))
     }, [])

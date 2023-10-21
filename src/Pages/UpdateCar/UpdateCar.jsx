@@ -7,7 +7,7 @@ const UpdateCar = () => {
     const [oldData, setOldData] = useState([]);
     const { id } = useParams()
     useEffect(() => {
-        fetch(`https://trigun-cars-server-side-2rslvmt9m-safin-khans-projects.vercel.app/cardata/${id}`)
+        fetch(`https://trigun-cars-server-side.vercel.app/cardata/${id}`)
             .then(res => res.json())
             .then(data => setOldData(data))
     }, [])
@@ -26,7 +26,7 @@ const UpdateCar = () => {
         console.log(carData);
 
 
-        fetch(`https://trigun-cars-server-side-2rslvmt9m-safin-khans-projects.vercel.app/cardata/${id}`, {
+        fetch(`https://trigun-cars-server-side.vercel.app/cardata/${id}`, {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(carData)
