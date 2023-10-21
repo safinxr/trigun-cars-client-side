@@ -11,7 +11,7 @@ const CarDetails = () => {
 
     const { user } = useContext(ContextAuth)
     const { id } = useParams()
-    const [car, setCar] = useState();
+    const [car, setCar] = useState([]);
     useEffect(() => {
         fetch(`http://localhost:3000/cardata/${id}`)
             .then(res => res.json())

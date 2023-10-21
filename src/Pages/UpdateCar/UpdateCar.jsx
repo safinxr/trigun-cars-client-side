@@ -4,7 +4,7 @@ import Swal from 'sweetalert2'
 
 const UpdateCar = () => {
 
-    const [oldData, setOldData] = useState();
+    const [oldData, setOldData] = useState([]);
     const { id } = useParams()
     useEffect(() => {
         fetch(`http://localhost:3000/cardata/${id}`)
