@@ -14,6 +14,36 @@ const MyCart = () => {
             .then(data => setCarts(data))
     }, [])
 
+    const deleteButton = (id) => {
+        Swal.fire({
+            title: 'Are you sure?',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                fetch(`http://localhost:3000/cart/${id}`, {
+                    method: "DELETE",
+
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        Swal.fire(
+                            'Deleted!',
+                            'Your file has been deleted.',
+                            'success'
+                        )
+
+                        const remaining = carts.filter(cart => cart._id !== id)
+                        setCarts(remaining)
+                    })
+
+            }
+        })
+    }
+
     return (
         <div className='max-w-6xl mx-auto px-3 md:px-8 lg:px-0'>
             <h2 className='uppercase text-center text-3xl md:text-5xl font-semibold mb-6 md:mb-10 underline underline-offset-8 mt-8 md:mt-12 lg:20'>My carts</h2>
@@ -21,7 +51,7 @@ const MyCart = () => {
             {
                 carts.length > 0 ? <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 '>
                     {
-                        carts?.map(cart => <CartCard cart={cart} key={cart._id}></CartCard>)
+                        carts?.map(cart => <CartCard cart={cart} deleteButton={deleteButton} key={cart._id}></CartCard>)
                     }
                 </div>
 
@@ -36,40 +66,10 @@ const MyCart = () => {
 export default MyCart;
 
 
-const CartCard = ({ cart }) => {
+const CartCard = ({ cart, deleteButton }) => {
     const { name, brand_name, type, description, price, img, rating, cart_id, _id } = cart;
 
-    const deleteButton = ()=>{
-        Swal.fire({
-            title: 'Are you sure?',
-            icon: 'warning',
-            showCancelButton: true,
-            confirmButtonColor: '#3085d6',
-            cancelButtonColor: '#d33',
-            confirmButtonText: 'Yes, delete it!'
-        }).then((result) => {
-            if (result.isConfirmed) {
-                fetch(`http://localhost:3000/cart/${_id}`, {
-                    method: "DELETE",
 
-                })
-                    .then(res => res.json())
-                    .then(data => {
-                        Swal.fire(
-                            'Deleted!',
-                            'Your file has been deleted.',
-                            'success'
-                        )
-                        console.log('delete');
-
-                        // const remaining = carts.filter(coffee => coffee._id !== id)
-                        // setCoffees(remaining)
-                        // console.log(remaining);
-                    })
-
-            }
-        })
-    }
 
     return (
         <div className="card md:card-side bg-base-100 card-shadow hover:scale-105 duration-300">
@@ -89,7 +89,7 @@ const CartCard = ({ cart }) => {
                         <span className="absolute flex items-center justify-center w-full h-full text-black transition-all duration-300 transform group-hover:translate-x-full ease uppercase">Details</span>
                         <span className="relative invisible uppercase">Details</span>
                     </Link>
-                    <button onClick={deleteButton}  className="relative inline-flex items-center justify-center p-4 px-6 py-1.5 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-[#FF4D24] rounded-md shadow-md group">
+                    <button onClick={()=>deleteButton(_id)} className="relative inline-flex items-center justify-center p-4 px-6 py-1.5 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-[#FF4D24] rounded-md shadow-md group">
                         <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-[#FF4D24] group-hover:translate-x-0 ease">
                             <AiOutlineDelete className='font-bold text-2xl'></AiOutlineDelete>
                         </span>
