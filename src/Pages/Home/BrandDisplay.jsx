@@ -47,7 +47,7 @@ const BrandCard = ({ brand }) => {
     return (
         <div data-aos="fade-up">
             <div onClick={() => brandClink(brand_name)} 
-            className="card bg-base-100 card-shadow duration-300  active:scale-95 relative group ">
+            className="card bg-base-100 card-shadow duration-300  active:scale-95 relative group cursor-pointer">
                 <figure>
                     <img src={brand_img} alt="brand" />
                     <img className='hidden lg:flex absolute opacity-0 group-hover:opacity-100 rounded-t-2xl duration-500 ' src={car_img} alt="car" />

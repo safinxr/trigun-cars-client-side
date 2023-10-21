@@ -26,25 +26,24 @@ const UpdateCar = () => {
         console.log(carData);
 
 
-        // fetch('http://localhost:3000/cardata', {
-        //     method: 'POST',
-        //     headers: { 'Content-Type': 'application/json' },
-        //     body: JSON.stringify(carData)
-        // })
-        //     .then(res => res.json())
-        //     .then(data => {
-        //         console.log(data);
-        //         if (data.acknowledged) {
-        //             Swal.fire({
-        //                 position: 'center',
-        //                 icon: 'success',
-        //                 title: 'Car added successful',
-        //                 showConfirmButton: false,
-        //                 timer: 1500
-        //             })
-        //             e.target.reset()
-        //         };
-        //     })
+        fetch(`http://localhost:3000/cardata/${id}`, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(carData)
+        })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                if (data.acknowledged) {
+                    Swal.fire({
+                        position: 'center',
+                        icon: 'success',
+                        title: 'Car added successful',
+                        showConfirmButton: false,
+                        timer: 1500
+                    })
+                };
+            })
 
 
     }
