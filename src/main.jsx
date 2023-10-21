@@ -12,6 +12,7 @@ import Context from './Context/Context.jsx';
 import PrivateRoute from './Private/PrivateRoute.jsx';
 import CarDisplay from './Pages/CarDisplay/CarDisplay.jsx';
 import CarDetails from './Pages/CarDetails/CarDetails.jsx';
+import UpdateCar from './Pages/UpdateCar/UpdateCar.jsx';
 
 
 
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
       {
         path: '/cardetails/:id',
         element: <PrivateRoute><CarDetails></CarDetails></PrivateRoute>, 
+      },
+      {
+        path: '/updatecar/:id',
+        element: <PrivateRoute><UpdateCar></UpdateCar></PrivateRoute>, 
       },
     ]
   },

@@ -1,20 +1,9 @@
 import React from 'react';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import Swal from 'sweetalert2'
 
 
 const AddProduct = () => {
 
-    const notify = (x) => toast.success(x, {
-        position: "top-center",
-        autoClose: 3000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "light",
-    });
 
     const addHandel = e => {
         e.preventDefault();
@@ -37,7 +26,13 @@ const AddProduct = () => {
             .then(data => {
                 console.log(data);
                 if (data.acknowledged) {
-                    notify("Congratulations! Car has been added successfully")
+                    Swal.fire({
+                        position: 'center',
+                        icon: 'success',
+                        title: 'Car added successful',
+                        showConfirmButton: false,
+                        timer: 1500
+                    })
                     e.target.reset()
                 };
             })
@@ -95,18 +90,6 @@ const AddProduct = () => {
                         </button>
                     </form>
                 </div>
-                <ToastContainer
-                    position="top-center"
-                    autoClose={3000}
-                    hideProgressBar={false}
-                    newestOnTop={false}
-                    closeOnClick
-                    rtl={false}
-                    pauseOnFocusLoss
-                    draggable
-                    pauseOnHover
-                    theme="light"
-                />
             </div>
         </div>
     );
