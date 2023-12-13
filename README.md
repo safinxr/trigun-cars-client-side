@@ -1,10 +1,12 @@
-
 # TRIGUN
 
 
 
 ## Demo
 [Website Live link](https://trigun-17a88.web.app/)
+
+# Description
+Trigun is a website where users can browse and purchase cars at the best prices.
 
 
 # Features
