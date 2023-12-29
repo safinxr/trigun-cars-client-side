@@ -118,7 +118,7 @@ const Navbar = () => {
     // RETURN HTML START 🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔
     return (
         <nav className={navBg ? "sticky top-0 z-10 bg-black" : "sticky top-0 z-10"}>
-            <div className="navbar max-w-6xl mx-auto">
+            <div className="navbar max-w-xl mx-auto">
                 <div className="navbar-start ">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
