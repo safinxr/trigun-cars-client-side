@@ -1,4 +1,3 @@
-
 # TRIGUN
 
 
@@ -6,8 +5,11 @@
 ## Demo
 [Website Live link](https://trigun-17a88.web.app/)
 
+## Description
+Trigun is a website where users can browse and purchase cars at the best prices.
 
-# Features
+
+## Features
 ### Product Management Features
 - Users can add new products to the platform through the "Add Product" page.
 - The "Update" button on individual product pages enables users to edit product information, ensuring that product details remain up-to-date and accurate.
