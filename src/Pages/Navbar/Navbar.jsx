@@ -72,7 +72,7 @@ const Navbar = () => {
         {
             user ?
                 <div className='flex flex-col lg:flex-row lg:items-center '>
-                    <li><button 
+                    <li><button
                         onClick={signOut}
                         className="px-2"
                     >
@@ -118,7 +118,7 @@ const Navbar = () => {
     // RETURN HTML START 🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔
     return (
         <nav className={navBg ? "sticky top-0 z-10 bg-black" : "sticky top-0 z-10"}>
-            <div className="navbar max-w-xl mx-auto">
+            <div className="navbar max-w-6xl mx-auto">
                 <div className="navbar-start ">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -152,7 +152,7 @@ const Navbar = () => {
                                 }
                             </div>
                             <button onClick={signOut}
-                            className="rounded-md  px-4 py-1.5 m-1 overflow-hidden relative group cursor-pointer border-2 font-medium border-[#FF4D24] ">
+                                className="rounded-md  px-4 py-1.5 m-1 overflow-hidden relative group cursor-pointer border-2 font-medium border-[#FF4D24] ">
 
                                 <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-[#FF4D24] top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
                                 <span className="relative text-[#FF4D24] transition duration-300 group-hover:text-white ease">Sign out
