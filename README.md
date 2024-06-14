@@ -22,5 +22,5 @@ Trigun is a website where users can browse and purchase cars at the best prices.
 
 ### User Authentication and Profile Management
 - The website includes a comprehensive user authentication system. Users can register, log in, and choose between traditional email and password login or alternative methods like Facebook, GitHub, or Google.
-- User profiles display their names and profile pictures. Users have the option to log out securely, ensuring the privacy and security of their accounts.
+- User profiles display their names and profile pictures. Users have the option to log out securely, ensuring the privacy and security of their accounts..
 
